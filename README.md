@@ -11,4 +11,13 @@ This is a regression task. I choose Linear Regression as the model to quantify t
 
 ![vis](https://github.com/stiangithub/DS5500-HW2/blob/master/pr4.png)
 
-There are 4 subplots, each represents a time period (I found out it is pretty messy to put all years into one plot, so I divide the time into 4 periods, which looks much better). The X axis is logged income and Y axis is life expectancy. You can see clear positive linear relationship between income and life expectancy. As for the time factor, the locations of most points move from bottom left to top right gradually. So I can say that time is positively related to both life expectancy and income.
+There are 4 subplots, each represents a time period (I found out it is pretty messy to put all years into one plot, so I divide the time into 4 periods, which looks much better). The X axis is logged income and Y axis is life expectancy. You can see clear positive linear relationship between income and life expectancy. As for the time factor, the locations of most points move from bottom left to top right gradually. So I can say that time is positively related to both life expectancy and income. It is a reasonable result, since as people become richer, they are likely to put more money to help themselves to get healthier, which leads to the increase of life expectancy.
+
+## Problem 4
+Similar with problem 4, this is also a regression task to find out the relationship (intuitively it is a negative relationship) between income and child mortality overtime. I still choose the Linear Regression as the model because that there are only three variables and the data is not complicated. After setting the child mortality as the target, [income, time] as the design matrix, the Linear Regression model gives a result which has R^2 of 0.79 and RMSE of 77.9. Still, Linear Regression achieves a satisfactory result.
+
+![vis](https://github.com/stiangithub/DS5500-HW2/blob/master/pr5.png)
+
+The visualization contains 4 subplots, as I split the time into 4 major periods: 19th century, 1900-1950, 1950-2000, and after 2000. I first tried embed time into one plot but found out it was too messy. It is a good option to split time into 4 periods, as people can see the trend that child mortality is decreasing while income is increasing as the time goes. After all, we can see a clear negative correlation between income and child mortality over time. It is very reasonable that with the growth of income, people can put more money into caring children's health, which leads to the decrease of child mortality.
+
+
