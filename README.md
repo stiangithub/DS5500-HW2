@@ -13,7 +13,7 @@ This is a regression task. I choose Linear Regression as the model to quantify t
 
 There are 4 subplots, each represents a time period (I found out it is pretty messy to put all years into one plot, so I divide the time into 4 periods, which looks much better). The X axis is logged income and Y axis is life expectancy. You can see clear positive linear relationship between income and life expectancy. As for the time factor, the locations of most points move from bottom left to top right gradually. So I can say that time is positively related to both life expectancy and income. It is a reasonable result, since as people become richer, they are likely to put more money to help themselves to get healthier, which leads to the increase of life expectancy.
 
-## Problem 4
+## Problem 5
 Similar with problem 4, this is also a regression task to find out the relationship (intuitively it is a negative relationship) between income and child mortality overtime. I still choose the Linear Regression as the model because that there are only three variables and the data is not complicated. After setting the child mortality as the target, [income, time] as the design matrix, the Linear Regression model gives a result which has R^2 of 0.79 and RMSE of 77.9. Still, Linear Regression achieves a satisfactory result.
 
 ![vis](https://github.com/stiangithub/DS5500-HW2/blob/master/pr5.png)
